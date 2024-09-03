@@ -7,6 +7,6 @@ on:
 
 jobs:
   call-shared-workflow:
-    uses: shared-actions-org/shared-actions/.github/workflows/shared-workflow.yml@main
+    uses: shared-actions-org/shared-actions/.github/workflows/shared-workflow.yml@master
     with:
       message: "Hello from other-repo!"
