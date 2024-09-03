@@ -3,7 +3,7 @@ name: Use Shared Workflow
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   call-shared-workflow:
