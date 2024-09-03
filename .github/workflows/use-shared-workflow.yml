@@ -1,0 +1,12 @@
+name: Use Shared Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-shared-workflow:
+    uses: shared-actions-org/shared-actions/.github/workflows/shared-workflow.yml@main
+    with:
+      message: "Hello from other-repo!"
